@@ -4,8 +4,19 @@
 ### Download the entire project 
 ### Install Docker and Docker Compose in the machine 
 ### use the below command to run the project
+
+### Navigate to specific DB
+1.  Mongo DB
+```
+cd mongo
+```
+2. Run the below command
 ```
 docker-compose  up -d
+```
+# check for running containors
+```
+docker ps
 ```
 # To Prune the volumes and data in DB
 ```
